@@ -27,7 +27,8 @@ To explore whether being more active leads to better sleep or lower heart rates,
 Observation 1: Users with higher active minutes often had a higher daily average heart rate. This is expected since more activity elevates overall heart rate averages.
 Observation 2: Sleep data coverage was limited and inconsistent. In the few cases with both activity and sleep data, there wasn’t a clear pattern linking more activity to longer or better sleep.
 Conclusion: From this dataset, higher activity correlates with higher heart rate averages (due to exertion), but the link between activity and sleep quality is inconclusive due to missing or sparse sleep records.
-<img width="137" height="109" alt="image" src="https://github.com/user-attachments/assets/3fcb959e-f452-4a13-bd2a-8016a02c71f9" />
+<img width="190" height="180" alt="image" src="https://github.com/user-attachments/assets/3fcb959e-f452-4a13-bd2a-8016a02c71f9" />
+
 The scatter plot shows the relationship between very active minutes and average heart rate.
 People with higher very active minutes often show higher average heart rates (e.g., IDs 4020332650 and 4558609924 show spikes in HR on days with workouts).
 On days with little or no activity, the average heart rate tends to be lower and more stable.
