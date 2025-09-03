@@ -148,5 +148,4 @@ GENERALIZED RECOMMENDATIONS:
 **Encourage weekend activity → push notifications or challenges for Saturday/Sunday.**
 **Highlight link between exercise & sleep quality in Bellabeat app/marketing.**
 **Gamify self-tracking (badges/rewards for consistent weight and sleep logging).**
-
 **Personalized insights dashboards in Bellabeat products to show users progress against health guidelines (10,000 steps/day, 7–8 hrs sleep, etc).**
