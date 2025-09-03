@@ -5,6 +5,7 @@ These insights are then applied to Bellabeat, a wellness-focused smart device co
 **Dataset**
 	• Source: Fitbit Fitness Tracker Data (Kaggle)
 	• Duration: March–May 2016 (two months of user activity)
+ 
 **Steps in Analysis**
 A. Data Import
 Loaded 18 CSVs into MySQL database bellabeat.
@@ -57,6 +58,7 @@ One of the key questions we explored was whether users who sleep longer demonstr
 We then segmented users into two groups:
 Group A: ≤ 7 hours of sleep per night
 Group B: > 7 hours of sleep per night
+
 Key Findings:-
 Higher calorie burn with shorter sleep:
 Users sleeping ≤7 hours burned about 223 more calories per day compared to those sleeping longer.
@@ -75,7 +77,7 @@ b. Personalized nudges: For users logging high calorie burn but short sleep, Bel
 c. Wellness coaching opportunities: This insight could inform Bellabeat’s wellness programs, encouraging users to find their optimal balance of activity and rest rather than focusing solely on calorie burn.
 
 **6.** Detect users who have missing activity days in a month.
-   Let’s calculate expected vs. actual:
+ Let’s calculate expected vs. actual:
 Id = 3372868164 FOR Period: Apr 1 → May 1 = 31 days expected
 Logged days = 30
 ➝ Missing 1 day of activity
@@ -108,6 +110,7 @@ During mid-day hours, heart rates stabilize at moderate levels (~80 bpm), sugges
 No simple linear relationship: Calories burned do not consistently increase or decrease as sleep duration increases.
 Moderate sleep (3–5 units) shows lower calories burned, whereas some mid-range sleep durations (6–10) show higher calories burned.
 Very long sleep (>11 units) corresponds to fewer calories burned, which might indicate reduced activity on days with very long sleep.
+
 Conclusion:
 People who sleep very little or very much tend to burn fewer calories than those with moderate sleep (with some exceptions).
 Overall, longer sleep does not always mean more calories burned. Activity levels during waking hours likely have a stronger influence.
@@ -143,7 +146,7 @@ Behavior segmentation: Recognizing that only a small fraction of users engage in
 📈 Insight Summary: The cleaned dataset emphasizes that while the majority of users fall within typical daily calorie expenditure, there exists a small segment that consistently achieves exceptional activity levels. These high-calorie-burning days stand out as outliers but valuable signals—they reveal not just rare performance but also opportunities for personalization, motivation, and user retention strategies in wellness tracking applications.
 
 
-GENERALIZED RECOMMENDATIONS:
+GENERALIZED RECOMMENDATIONS FOR BELLABEAT:
 
 **Encourage weekend activity → push notifications or challenges for Saturday/Sunday.**
 **Highlight link between exercise & sleep quality in Bellabeat app/marketing.**
